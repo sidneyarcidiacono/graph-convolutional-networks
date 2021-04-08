@@ -114,7 +114,7 @@ We're going to take adjacency matrix *A* and insert it into our above equation. 
 
     Where `A*` represents normalized *A*. We'll talk about why we need to normalize *A* in a moment.
 
- 
+`A*` refers to the 'renormalization trick' - see Colab notebook experiment 1.
 
 ### Why GCN's?
 
