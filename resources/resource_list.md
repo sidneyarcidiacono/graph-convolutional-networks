@@ -17,6 +17,8 @@ Kipf's article discusses the two following papers:
 
 [Semi-supervised Classification with Graph Convolutional Networks](https://openreview.net/pdf?id=SJU4ayYgl)
 
+[GCN's Made Simple](https://vid.puffyan.us/watch?v=2KRAOZIULzw)
+
 [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
 
 - *Graph Neural Networks and GCN's - differences?*
@@ -28,6 +30,8 @@ Kipf's article discusses the two following papers:
 [GCNG: graph convolutional networks for inferring gene interaction from spatial transcriptomics data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02214-w)
 
 [Graph Convolutional Networks - Paper with Code](https://paperswithcode.com/method/gcn)
+
+[Graph Convolutional Networks Explained](https://vid.puffyan.us/watch?v=pH1Zz6c1Q7A)
 
 ## How to Implement GCN's
 

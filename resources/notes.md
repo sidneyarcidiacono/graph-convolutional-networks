@@ -35,6 +35,47 @@ My notes:
 
 See Kipf for further mathematical breakdown of this problem.
 
+Goal: encode graph structure and features of nodes to morph and modify these representations such that they can fit low level representations
+
+GCN Propagation rule (I've gone over this a bit before - this is the Kipf forward propagation rule with symmetric normalization, A and D')
+
+    H^(*l* + 1) = sigma(D'^-0.5A'D'^-0.5H^(*l*)W^(*l*))
+
+    Where, of course, we're stating:
+
+    The representation of the next hidden layer (*l* + 1) is equal to our nonlinear activation times the 'D A D' term, by our current layer and current layer weights.
+
+Dimensions of H and W:
+
+(where letter^| denotes 'prime')
+
+D^-0.5A'D^-0.5 in (n x n) => H^| in (n x y) => W^| in (y x y')
+
+(where 'y' here actually represents gamma)
+
+Sigma = ReLU function (could be sigmoid, 10H or Swish)
+
+max(0,)
+
+Zeros out negative values during the propagation.
+
+Computing loss on semi-supervised classification:
+
+Feature F^n is (n x 1) vector
+
+Flattens to a softmax probability distribution for each node
+
+However, the key idea here is that some nodes are labeled and some aren't (for a semi-supervised GCN)
+
+  - Semi-supervised learning assumption: **locally connected nodes are likely to share the same label**
+
+[This GCN design] GCNs treat edges as undirected - due to the limitation that the adjacency matrix needs to be symmetrical.
+
+  - This can be overcome by rearranging into bipartite graphs with additional nodes to represent edges
+
+  Features need to be initialized to be H^0
+
+
 *Getting the Intuition of Graph Neural Networks*:
 
 - Spektral, a Python library for Graph Neural Networks
