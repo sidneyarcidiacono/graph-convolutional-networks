@@ -57,3 +57,6 @@ Kipf's article discusses the two following papers:
 *Jess has friends in high places*
 
 *Maybe I have friends at UofM or something*
+
+[most promising](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets)
+https://chrsmrrs.github.io/datasets/docs/datasets/
