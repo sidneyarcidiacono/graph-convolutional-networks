@@ -1,5 +1,8 @@
 # Graph Convolutional Networks
 
+https://github.com/tkipf/gcn
+https://arxiv.org/abs/1606.09375y
+
 ## Why Graphs?
 
 Across domains and industries, much important actual data is represented in the form of graphs: [Social networks, protein-interaction networks, knowledge graphs, the World Wide Web, etc.](Kipf, Graph Convolutional Networks).
