@@ -52,11 +52,5 @@ Kipf's article discusses the two following papers:
 
 [PUBMED UCSC](https://linqs-data.soe.ucsc.edu/public/Pubmed-Diabetes/data/Pubmed-Diabetes.DIRECTED.cites.tab)
 
-*Check what Dominican Library gives access to just to see*
-
-*Jess has friends in high places*
-
-*Maybe I have friends at UofM or something*
-
-[most promising](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets)
+[TUD](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets)
 https://chrsmrrs.github.io/datasets/docs/datasets/
